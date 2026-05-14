@@ -34,6 +34,9 @@ public class HomeController : Controller
         ViewBag.plato = datos.DeterminarPlato();
         ViewBag.tiempo = datos.CalcularTiempo();
         ViewBag.dificultad = datos.DeterminarDificultad();
-        return View("Resultado");
+        ViewBag.edad = datos.CalcularEdad();
+        ViewBag.nombre = datos.nombreCocinero; 
+        ViewBag.cantidadComensales = datos.cantidadComensales;
+        return View();
     }
 }

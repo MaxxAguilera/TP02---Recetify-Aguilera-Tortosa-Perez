@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Tp02\\Tp02.csproj": {}
+    "C:\\TP02---Recetify-Aguilera-Tortosa-Perez\\Tp02.csproj": {}
   },
   "projects": {
-    "C:\\Tp02\\Tp02.csproj": {
+    "C:\\TP02---Recetify-Aguilera-Tortosa-Perez\\Tp02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tp02\\Tp02.csproj",
+        "projectUniqueName": "C:\\TP02---Recetify-Aguilera-Tortosa-Perez\\Tp02.csproj",
         "projectName": "Tp02",
-        "projectPath": "C:\\Tp02\\Tp02.csproj",
-        "packagesPath": "C:\\Users\\49628407\\.nuget\\packages\\",
-        "outputPath": "C:\\Tp02\\obj\\",
+        "projectPath": "C:\\TP02---Recetify-Aguilera-Tortosa-Perez\\Tp02.csproj",
+        "packagesPath": "C:\\Users\\49961152\\.nuget\\packages\\",
+        "outputPath": "C:\\TP02---Recetify-Aguilera-Tortosa-Perez\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\49628407\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49961152\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

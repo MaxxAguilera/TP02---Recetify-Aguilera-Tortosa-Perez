@@ -3,6 +3,31 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Formulario</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1 class="display-4">Formulario</h1>
 </div>
+<form action= '@Url.Action("GenerarSugerencia", "Home")' method= "POST" enctype="multipart/form-data" class="formulario">
+    <label>
+        Nombre <br>
+        <input type=text name=nombreCocinero>
+    </label> <br>
+    <label>
+        Fecha de nacimiento <br>
+        <input type=date name=fechaNacimiento>
+    </label> <br>
+    <label>
+        Tipo de comida: <br>
+        Caliente <input type=radio name=tipoComida value=Caliente> <br>
+        Fria <input type=radio name=tipoComida value=Fría> 
+    </label> <br>
+    <label>
+        Presupuesto <br>
+        <input type=number name=presupuesto>
+    </label> <br>
+    <label>
+        Cantidad de personas <br>
+        <input type=number name=cantidadComensales>
+    </label> <br>
+    <label>
+        <input type=submit name=guardar>
+    </label> <br>
+</form>
